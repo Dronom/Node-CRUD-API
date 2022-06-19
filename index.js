@@ -9,7 +9,7 @@ const port = process.env.port;
 const host = process.env.host;
 const NODE_ENV = process.env.NODE_ENV;
 
-const server = http
+export const server = http
   .createServer((req, res) => {
     res.setHeader("Content-Type", "application/json");
     console.log(req.method, req.url);
