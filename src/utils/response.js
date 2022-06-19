@@ -1,5 +1,4 @@
 export const goodResponse = ({ res, statusCode = 200, data }) => {
-  console.log("data", data);
   return res.writeHead(statusCode).end(data);
 };
 

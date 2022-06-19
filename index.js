@@ -8,7 +8,6 @@ dotenv.config();
 const port = process.env.port;
 const host = process.env.host;
 const NODE_ENV = process.env.NODE_ENV;
-console.log(process.env.NODE_ENV);
 
 const server = http
   .createServer((req, res) => {

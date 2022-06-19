@@ -27,3 +27,5 @@ changes data of user with {UserId}. You may change all user field simultaneously
 
 DELETE api/users/{UserId}
 deletes user from base
+
+all requests methods and paths are duplicated in the console for convenience

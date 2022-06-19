@@ -26,8 +26,6 @@ export const endpointHandler = async (req, res) => {
   // save only endpoint after /api/users
   const endpoint = url.substring(10);
 
-  console.log("endpoint", endpoint);
-
   switch (true) {
     case endpoint === "":
     case endpoint === "/": {
